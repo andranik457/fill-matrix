@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<style>
+    table tr td {
+        width: 32px;
+        height: 32px;
+        background: #00a5a9;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        border: 1px solid white;
+    }
+    .row {
+        margin-top:25px;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-3">
+            <input class="form-control" type="number" name="matrix_size" value="3">
+        </div>
+        <div class="col-xs-3">
+            <button class="btn btn-success submitButton" onClick="onSubmit()">Submit</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 result"></div>
+    </div>
+</div>
+
+<script src="main.js"></script>
