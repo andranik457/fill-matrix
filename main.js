@@ -17,7 +17,7 @@ function onSubmit() {
 
     //alert(matrixSize);
     if (matrixSize % 2 == 0 || matrixSize < 0 || matrixSize > 25) {
-        alert('Please!');
+        alert('Inserted number need to be less than 25 | greater 0 | odd!');
     }
     else {
         createMatrix(matrixSize);
